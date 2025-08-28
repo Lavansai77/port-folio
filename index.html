@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bandari Lavansai - Software & Python Developer</title>
+    <meta name="description" content="Portfolio of Bandari Lavansai, a passionate Software & Python Developer specializing in MERN stack and Python development. Building scalable web applications with modern technologies." />
+    <meta name="keywords" content="Bandari Lavansai, Software Developer, Python Developer, MERN Stack, Web Development, React, Node.js, Portfolio" />
+    <meta name="author" content="Bandari Lavansai" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Bandari Lavansai - Software & Python Developer" />
+    <meta property="og:description" content="Portfolio showcasing expertise in MERN stack and Python development with real-world projects and certifications." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bandarilavansai.dev" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bandari Lavansai - Software & Python Developer" />
+    <meta name="twitter:description" content="Portfolio showcasing expertise in MERN stack and Python development with real-world projects and certifications." />
+    
+    <!-- Preconnect to external domains for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      
+      /* Smooth scroll behavior */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(135deg, #2563eb, #7c3aed);
+      }
+      
+      /* Dark mode scrollbar */
+      .dark ::-webkit-scrollbar-track {
+        background: #1f2937;
+      }
+      
+      /* Loading animation */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      .animate-fade-in-up {
+        animation: fadeInUp 0.6s ease-out;
+      }
+      
+      .animate-fade-in-up-delay {
+        animation: fadeInUp 0.6s ease-out 0.2s both;
+      }
+      
+      /* Gradient text selection */
+      ::selection {
+        background: rgba(59, 130, 246, 0.3);
+      }
+      
+      /* Focus styles for accessibility */
+      button:focus,
+      a:focus {
+        outline: 2px solid #3b82f6;
+        outline-offset: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
